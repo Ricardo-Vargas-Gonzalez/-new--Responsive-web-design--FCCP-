@@ -1,4 +1,9 @@
-<html> <!--Nota: desde este punto comenzarás a usar valores, etiquetas, elementos atributos que son caracteristicos de HTML, por ende debes compreder cada uno, no es imposible. "RAV-G".-->
+<!DOCTYPE html>
+<html lang="en"> <!--Nota: desde este punto comenzarás a usar valores, etiquetas, elementos atributos que son caracteristicos de HTML, por ende debes compreder cada uno, no es imposible. "RAV-G".-->
+<head>
+  <title>CatPhotoApp</title>
+</head>
+<meta charset="UTF-8">
     <body>
         <h1>CatPhotoApp</h1>
         <main>
@@ -36,19 +41,25 @@
             <form action="https://freecatphotoapp.com/submit-cat-photo">
               <fielset>
                 <legend>Is your cat an indoor or outdoor cat?</legend>
-                <label><input type="radio" id="indoor" name="indoor-outdoor" value="indoor"> Indoor</label>
+                <label><input type="radio" id="indoor" name="indoor-outdoor" value="indoor" checked> Indoor</label>
                 <label><input type="radio" id="outdoor" name="indoor-outdoor" value="outdoor"> Outdoor</label>
               </fielset>
               <fieldset>
                 <legend>What's your cat personality?</legend>
-                <input id="loving" type="checkbox" name="personality"><label for="loving">Loving</label>
-                <input id="lazy" type="checkbox" name="personality"><label for="lazy">Lazy</label>
+                <input id="loving" type="checkbox" name="personality"><label for="loving" value="loving" checked>Loving</label>
+                <input id="lazy" type="checkbox" name="personality"><label for="lazy" value="lazy">Lazy</label>
+                <input id="energetic" type="checkbox" name="personality"><label for="energetic" value="energetic">Energetic</label>
               </fieldset>
               <input type="text" name="catphotourl" placeholder="cat photo URL" required>
               <button type="submit">Submit</button>
             </form>
           </section>
         </main>
+        <footer>
+          <p>
+            No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamo.org</a><a href="https://github.com/Ricardo-Vargas-Gonzalez/-new--Responsive-web-design--FCCP-.git">/created by Ricardo Alonso Vargas González-August 2022</a>
+          </p>
+        </footer>
     </body>
 </html>
     

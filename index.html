@@ -1,4 +1,4 @@
-<html>
+<html> <!--Nota: desde este punto comenzarás a usar valores, etiquetas, elementos atributos que son caracteristicos de HTML, por ende debes compreder cada uno, no es imposible. "RAV-G".-->
     <body>
         <h1>CatPhotoApp</h1>
         <main>
@@ -34,7 +34,18 @@
           <section>
             <h2>Cat Form</h2>
             <form action="https://freecatphotoapp.com/submit-cat-photo">
+              <fielset>
+                <legend>Is your cat an indoor or outdoor cat?</legend>
+                <label><input type="radio" id="indoor" name="indoor-outdoor" value="indoor"> Indoor</label>
+                <label><input type="radio" id="outdoor" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+              </fielset>
+              <fieldset>
+                <legend>What's your cat personality?</legend>
+                <input id="loving" type="checkbox" name="personality"><label for="loving">Loving</label>
+                <input id="lazy" type="checkbox" name="personality"><label for="lazy">Lazy</label>
+              </fieldset>
               <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+              <button type="submit">Submit</button>
             </form>
           </section>
         </main>

@@ -14,6 +14,8 @@ h2 {
 }
 h1, h2, p {
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 15px;
   }
 .menu {
     width: 80%;
@@ -22,6 +24,12 @@ h1, h2, p {
     margin-left: auto; 
     margin-right: auto;
     padding: 20px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
 }
 hr {
     height: 2px;
@@ -51,6 +59,9 @@ h1, h2 {
 /*FOOTER*/
 footer {
     font-size: 14px;
+}
+.address {
+    margin-bottom: 5px;
 }
 a {
     color: black;

@@ -12,12 +12,12 @@ h1 {
     margin-top: auto;
     margin: 10px auto;
 }
-.one {
-    background-color: rgb(0, 0, 0);
-}
-.two {
+.red {
     background-color: rgb(255, 0, 0);
 }
-.three {
+.green {
+    background-color: #007F00;
+}
+.blue {
     background-color: rgb(0, 0, 0);
 }

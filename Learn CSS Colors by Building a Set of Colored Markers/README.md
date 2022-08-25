@@ -13,6 +13,10 @@ And for rose, which is sometimes called bright pink, update the rgb function in 
 
 Exist 16 diferent values from 0-9 to A-F it`s like rgb model, but on this model, beggins with # character and make in pairs, the first pair is for red, second for green and last one for blue, the intensity is defined by de values 00 = 0% FF = 100% and combination of these can turn the color more light or dark.
 
+in the gradients Even without the color-stops, you might have noticed that the colors for the green marker transition at the same points as the red marker. The first color is at the start (0%), the second is in the middle (50%), and the last is at the end (100%) of the gradient line.
+
+The linear-gradient function automatically calculates these values for you, and places colors evenly along the gradient line by default.
+
 ### HSL color model
 
 The HSL color model, or hue, saturation, and lightness, is another way to represent colors.
@@ -30,3 +34,9 @@ Lightness is how bright a color appears, from 0%, or complete black, to 100%, co
 A gradient is when one color transitions into another. The CSS linear-gradient function lets you control the direction of the transition along a line, and which colors are used.
 
 One thing to remember is that the linear-gradient function actually creates an image element, and is usually paired with the background property which can accept an image as a value.
+
+The first color is at the start (0%), the second is in the middle (50%), and the last is at the end (100%) of the gradient line.
+
+The linear-gradient function automatically calculates these values for you, and places colors evenly along the gradient line by default.
+
+If no gradientDirection argument is provided to the linear-gradient function, it arranges colors from top to bottom, or along a 180 degree line, by default.

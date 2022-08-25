@@ -1,4 +1,5 @@
-#on this project I´m create different types of colors
+# on this project I´m create different types of colors
+
 from primary colors
 There are three more tertiary colors: chartreuse green (green + yellow), azure (blue + cyan), and rose (red + magenta).
 

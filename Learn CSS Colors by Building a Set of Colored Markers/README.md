@@ -11,6 +11,8 @@ And for rose, which is sometimes called bright pink, update the rgb function in 
 
 ## hexagonal color model
 
+Exist 16 diferent values from 0-9 to A-F it`s like rgb model, but on this model, beggins with # character and make in pairs, the first pair is for red, second for green and last one for blue, the intensity is defined by de values 00 = 0% FF = 100% and combination of these can turn the color more light or dark.
+
 ### HSL color model
 
 The HSL color model, or hue, saturation, and lightness, is another way to represent colors.

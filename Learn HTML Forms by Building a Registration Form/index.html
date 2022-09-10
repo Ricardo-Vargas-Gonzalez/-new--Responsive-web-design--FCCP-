@@ -6,7 +6,8 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <h1>Registration Form</h1>
+        <h1>Registration Form</h1> 
+        <p> Created by<a href="https://github.com/Ricardo-Vargas-Gonzalez/-new--Responsive-web-design--FCCP-.git"> Ricardo Alonso Vargas González</a> - September 2022</p>
         <p>Please fill out this form with the required information</p>
         <form action="https://register-demo.freecodecamp.org">
             <fieldset>
@@ -16,20 +17,25 @@
                 <label>Create a New Password: <input type="password" pattern= [a-z0-5]{8,} required /></label>
             </fieldset>
             <fieldset>
-                <label><input type="radio" name="account-type" /> Personal Account</label>
-                <label><input type="radio" name="account-type" /> Bussines Account</label>
-                <label><input type="checkbox" required> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a></label>
+                <label><input id="personal-account" type="radio" name="account-type" class="inline" /> Personal Account</label>
+                <label><input id="business-account" type="radio" name="account-type" class="inline" /> Bussines Account</label>
+                <label><input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline"> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a></label>
             </fieldset>
             <fieldset>
-                <label>Upload a profile picture<input type="file" /></label>
-                <label>Input your age (years):<input type="number" min="13" max="120" /></label>
-                <select>
-                    <option></option>
-                    <option></option>
-                    <option></option>
-                    <option></option>
-                    <option></option>
-                </select>
+                <label for="profile-picture">Upload a profile picture<input type="file" id="profile-picture" name="picture" /></label>
+                <label for="age">Input your age (years):<input type="number" min="13" max="120" id="age" name="age aprox" /></label>
+                <label for="referrer">How did you hear about us? 
+                    <select id="referrer">
+                        <option value="" name="nothing">(select one)</option>
+                        <option value="1" name="news">freeCodeCamp News</option>
+                        <option value="2" name="YT">freeCodeCamp YouTube Channel</option>
+                        <option value="3" name="forum">freeCodeCamp Forum</option>
+                        <option value="4" name="another">Other</option>
+                     </select>
+                </label>
+                <label for="bio">Provide a bio: 
+                    <textarea id="bio" rows="3" cols="30" placeholder="I like coding on the beach..." name="description"></textarea>
+                </label>
             </fieldset>
             <input type="submit" value="Submit" />
         </form>

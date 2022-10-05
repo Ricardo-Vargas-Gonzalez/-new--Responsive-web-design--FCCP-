@@ -46,20 +46,59 @@
                         <option value="other">Other</option>
                     </select>
                 </div>
-                <div>
-                    <label for="programming lenguages">What programming language attracts you?</label>
-                    <select id="dropdown" name="programming lenguages">
-                        <option value="javascript">JavaScript</option>
-                        <option value="php">PHP</option>
-                        <option value="java">Java</option>
-                        <option value="golang">Golang</option>
-                        <option value="python">Python</option>
-                        <option value="c#">C#</option>
-                        <option value="C++">C++</option>
-                        <option value="other">Other</option>
-                    </select>
-                </div>
             </fieldset>
+            <fieldset>
+                <label>What type of learning do you prefer to use?</label>
+                <div>
+                    <label><input id="visual-learning" type="radio" name="type-learning" value="visual" class="inline" checked>Visual Learning</label>
+                </div>
+                <div>
+                    <label><input id="auditory -learning" type="radio" name="type-learning" value="auditory" class="inline">Auditory Learning</label>
+                </div>
+                <div>
+                    <label><input id="kinesthetic -learning" type="radio" name="type-learning" value="kinesthetic" class="inline">Kinesthetic Learning</label>
+                </div>
+              </fieldset>
+              <fieldset>
+                <label for="developer">What kind of developer would you like to be?</label>
+                <select id="developer" name="type-developer">
+                  <option value="back-end">Back-End</option>
+                <option value="front-end">Front-End</option>
+                <option value="full-stack">Full-Stack</option>
+                </select>
+              </fieldset>
+              <fieldset>
+                <label>From the above, which programming languages ​​would you like to learn?</label>
+                <div class="inline">
+                   <input id="javascript" type="checkbox" name="lang"><label for="javascript" value="javascript">JavaScript</label>
+                </div>
+                <div class="inline">
+                   <input id="php"  type="checkbox" name="lang"><label for="php" value="php">PHP</label>
+                </div>
+                <div class="inline">
+                   <input id="java"  type="checkbox" name="lang" for="java" value="java"><label>Java</label>
+                </div>
+                <div class="inline">
+                   <input id="golang"  type="checkbox" name="lang" ><label for="golang" value="golang">Golang</label>
+                </div>
+                <div class="inline">
+                   <input id="python"  type="checkbox" name="lang"><label for="python" value="python">Python</label>
+                </div>
+                <div class="inline">
+                   <input id="c#"  type="checkbox" name="lang"><label for="c#" value="c#">C#</label>
+                </div>
+                <div class="inline">
+                   <input id="C++"  type="checkbox" name="lang"><label for="c++" value="c++">C++</label>
+                </div>
+                <div class="inline">
+                   <input id="other"  type="checkbox" name="lang"><label for="other" value="other">Other</label><label id="label-option" for="option"> which?</label>
+                <input 
+                    type="text" 
+                    id="option" 
+                    placeholder="Mention any" 
+                />
+                </div>
+              </fieldset>
         </form>
     </body>
 </html>

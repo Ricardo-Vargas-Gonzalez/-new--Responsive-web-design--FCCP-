@@ -1,0 +1,24 @@
+/* En css al usar el "*" asterisco se asigna el estilo para todo el archivo, por otro lado si se usa el "#" gato se entiende que es cualquier objeto que tenga el id signado a tal gato*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif; 
+    background-color: #f5f6f7;
+}
+
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 32px;
+    color: #fff;
+    background-color: #0a0a23;
+    border-bottom: #fdb347;
+}
+.gallery img{
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+}

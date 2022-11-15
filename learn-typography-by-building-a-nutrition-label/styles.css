@@ -28,6 +28,11 @@ p {
     margin: 0;
 }
 
+.divider {
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
+}
+
 .bold {
     font-weight: 800;
 }
@@ -35,7 +40,24 @@ p {
 .right {
     float: right;
 }
-.divider {
-    border-bottom: 1px solid #888989;
-    margin: 2px 0;
+
+.lg {
+    height: 10px;
+}
+  
+.lg, .md {
+    background-color: black;
+    border: 0;
+}
+
+.sm-text {
+    font-size: 0.85rem;
+}
+
+.calories-info h1 {
+    margin: -5px -2px;
+}
+
+.calories-info span {
+    font-size: 1.2em;
 }

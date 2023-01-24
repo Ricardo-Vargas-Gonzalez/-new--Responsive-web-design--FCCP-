@@ -25,23 +25,59 @@
             <section role="region" aria-labelledby="student-info">
                 <h2 id="student-info">Student Info</h2>
                 <div class="info">
-                  <label for="name">Name</label>
-                  <input id="name" />
+                  <label for="student-name">Name</label>
+                  <input id="student-name" type="text" name="identification" />
                 </div>
                 <div class="info">
                   <label for="e-mail">E-mail</label>
-                  <input id="e-mail" />
+                  <input id="e-mail" type="email" name="e-mail" />
                 </div>
                 <div class="info">
-                  <label for="birth">Birth</label>
-                  <input id="birth" />
+                  <label for="date-birth">D.O.B.<span class="sr-only">Date of Birth</span></label>
+                  <input id="date-birth" type="date" name="D.O.B." />
                 </div>
             </section>
             <section role="region" aria-labelledby="html-questions">
-                <h2 id="html-questions">Html Questions</h2>
+                <h2 id="html-questions">HTML</h2>
+                <div class="question-block">
+                    <p>1</p>
+                    <fieldset class="question">
+                        <legend></legend>
+                        <ul>
+                            <li>
+                                <label for="q1-a1">
+                                    <input type="radio" id="q1-a1" />
+                                </label>
+                            </li>
+                            <li>
+                                <label for="q1-a2">
+                                    <input type="radio" id="q1-a2" />
+                                </label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                </div>
+                <div class="question-block">
+                    <p>2</p>
+                    <fieldset class="question">
+                        <legend></legend>
+                        <ul>
+                            <li>
+                                <label for="q2-a1" >
+                                    <input type="radio" id="q2-a1" />
+                                </label>
+                            </li>
+                            <li>
+                                <label for="q2-a2" >
+                                    <input type="radio" id="q2-a2" />
+                                </label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                </div>
             </section>
             <section role="region" aria-labelledby="css-questions">
-                <h2 id="css-questions">Css Questions</h2>
+                <h2 id="css-questions">CSSs</h2>
             </section>
         </form>
     </main>

@@ -1,3 +1,8 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+  scroll-behavior: smooth;
+   }
+}
 body {
     background: #f5f6f7;
     color: #1b1b32;
@@ -78,8 +83,85 @@ h2 {
     padding-top: 60px;
 }
 
+.info {
+   padding: 10px 0 0 5px;
+}
+
+.formrow {
+  margin-top: 30px;
+  padding: 0 15px;
+}
+
+input {
+  font-size: 16px;
+}
+
+.info input, .info label {
+  display: inline-block;
+  text-align: right;
+}
+
+.info input {
+    width: 50%;
+    text-align: left;
+}
+
+.info label {
+    width: 10%;
+    min-width: 55pxz;
+}
+
+.question-block {
+    text-align: left;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 5px;
+}
+
+p {
+    margin-top: 5px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
 p::before {
     content: "Question #"
+}
+
+.question  {
+    padding-bottom: 0;
+    border: none;
+}
+
+.answers-list {
+    padding: 0;
+    list-style: none;
+}
+
+button {
+    display: block;
+    margin: 40px auto;
+    width: 40%;
+    padding: 15px;
+    font-size: 23px;
+    background: #d0d0d5;
+    border: 3px solid #3b3b4f;
+}
+
+footer {
+    background-color: #2a2a40;
+    justify-content: center;
+    display: flex;
+}
+
+footer, footer a {
+    color: #dfdfe2;
+}
+
+address {
+    text-align: center;
+    padding: 1px 1px;
 }
 
 .sr-only {
